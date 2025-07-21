@@ -1,0 +1,28 @@
+.bgMain{
+    background-color: #2C3E50;
+    min-height:40vh;
+}
+.circle{
+    width: 35px;
+    height: 35px;
+    outline: 1px solid white;
+    transition: all 0.3s ease;
+}
+.bottomFooter{
+    background-color: #11181E;
+}
+.circle:hover
+{
+    background-color: white !important;
+    color: black !important;
+    cursor: pointer;
+}
+.circle:hover i, 
+.circle2:hover i,
+.circle3:hover i,
+.circle4:hover i{
+    /* background-color: white !important; */
+    color: black !important;
+        cursor: pointer;
+
+}

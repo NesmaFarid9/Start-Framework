@@ -1,0 +1,29 @@
+.bgMain{
+    background-color: #2C3E50;
+}
+.textMain{
+    color: #2C3E50;
+}
+.line{
+    width: 99px;
+    height: 5px;
+}
+.form-control:focus{
+    outline: 0 !important;
+}
+.btnMessage{
+    border: 2px solid #1ABC9C;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.formControl:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+/* media */
+@media screen and (width: 576px){
+    input{
+        width: 90%;
+    }  
+}
